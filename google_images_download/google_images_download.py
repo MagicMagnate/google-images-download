@@ -922,7 +922,8 @@ class googleimagesdownload:
                         print(iteration.encode('raw_unicode_escape').decode('utf-8'))
                         print("Evaluating...")
                     else:
-                        print("Downloading images for: " + (pky) + (search_keyword[i]) + (sky) + " ...")
+                        pass
+                        # print("Downloading images for: " + (pky) + (search_keyword[i]) + (sky) + " ...")
                     search_term = pky + search_keyword[i] + sky
 
                     if arguments['image_directory']:
